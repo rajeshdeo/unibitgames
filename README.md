@@ -41,7 +41,7 @@ Recursive Solution<br>
 The recursive solution also uses a two-pointer technique to find the first combination and merges the array into a single array recursively. Then it uses backtracking to find the second combination.<br>
 
 Time Complexity<br>
-The time complexity of the recursive solution is O(n^2), where n is the length of the array.<br>
+The time complexity of the recursive solution is O(2^n), where n is the length of the array.<br>
 
 Space Complexity<br>
 The space complexity of the recursive solution is O(n), where n is the length of the array. This is due to the recursive calls and the space used by the call stack.
